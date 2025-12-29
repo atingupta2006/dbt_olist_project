@@ -35,7 +35,7 @@ models:
       relation: true
       columns: true
     staging:
-      +materialized: view
+      +materialized: table
     intermediate:
       +materialized: view
     marts:
