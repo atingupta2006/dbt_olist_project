@@ -50,14 +50,14 @@ sources:
               - not_null
               - accepted_values:
                   values:
-                    - created1
-                    - approved1
+                    - created
+                    - approved
                     - processing
-                    - invoiced1
-                    - shipped1
-                    - delivered1
-                    - canceled1
-                    - unavailable1
+                    - invoiced
+                    - shipped
+                    - delivered
+                    - canceled
+                    - unavailable
 
           - name: order_purchase_timestamp
             description: "Timestamp when the purchase was placed. Used as a proxy for load time in this training repo."
