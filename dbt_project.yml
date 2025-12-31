@@ -35,8 +35,10 @@ models:
       relation: true
       columns: true
     staging:
+      +tags: ["hourly"]
       +materialized: table
     intermediate:
+      +tags: ["hourly","daily"]
       +materialized: view
     marts:
       +materialized: table
