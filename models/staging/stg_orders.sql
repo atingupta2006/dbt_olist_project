@@ -9,3 +9,4 @@ select
   cast(order_estimated_delivery_date as date) as order_estimated_delivery_date
 from {{ source('olist', 'orders') }}
 
+ 
